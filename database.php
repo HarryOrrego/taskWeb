@@ -3,14 +3,12 @@
     $connection = mysqli_connect(
         'localhost',
         'root',
-        'password',
-        'taskweb'
+        '',
+        'taskweb'               
     );
 
-    if($connection) {
-        echo 'Database is connected';
-    }else {
-        echo 'Error en la conexión';
-    }
+    // if($connection) {
+    //     echo 'Database is connected'.PHP_EOL;
+    // }
 
 ?>
